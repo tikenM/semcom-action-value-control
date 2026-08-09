@@ -1,0 +1,118 @@
+{
+  "label": "stl10",
+  "n": 28,
+  "structural_mismatch_n": 15,
+  "structural_mismatch_rate": 0.5357142857142857,
+  "structural_mismatch_points": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "estimation_mismatch_n": 6,
+  "estimation_mismatch_rate": 0.46153846153846156,
+  "estimation_mismatch_points": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "raw_rule_disagree_with_oracle_rate": 0.75,
+  "predicted_total_from_decomposition": 0.75,
+  "certified_vs_oracle_accuracy": null,
+  "certified_committed_fraction": 0.0,
+  "certified_abstain_fraction": 1.0,
+  "note": "certified_vs_oracle_accuracy above uses the SAME committed-point set as Table IV's 'Acc. (full)', but scores against the oracle-best action instead of the true loss ordering. Compare the two directly rather than assuming they agree.",
+  "certified_layer_trivial": {
+    "upper_mode": "trivial",
+    "n_total": 28,
+    "n_committed": 0,
+    "committed_fraction": 0.0,
+    "acc_vs_gt_regime": null,
+    "acc_vs_oracle": null
+  },
+  "certified_layer_tighter": {
+    "upper_mode": "tighter",
+    "n_total": 28,
+    "n_committed": 28,
+    "committed_fraction": 1.0,
+    "acc_vs_gt_regime": 0.7857142857142857,
+    "acc_vs_oracle": 0.25
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "rows": [
+    {
+      "hyx": 0.0,
+      "flips": 0,
+      "n": 28,
+      "committed_half_trivial": 23,
+      "committed_full_trivial": 0,
+      "committed_half_tighter": 27,
+      "committed_full_tighter": 26
+    },
+    {
+      "hyx": 0.05,
+      "flips": 0,
+      "n": 28,
+      "committed_half_trivial": 23,
+      "committed_full_trivial": 0,
+      "committed_half_tighter": 26,
+      "committed_full_tighter": 26
+    },
+    {
+      "hyx": 0.1,
+      "flips": 0,
+      "n": 28,
+      "committed_half_trivial": 23,
+      "committed_full_trivial": 0,
+      "committed_half_tighter": 26,
+      "committed_full_tighter": 25
+    },
+    {
+      "hyx": 0.2,
+      "flips": 0,
+      "n": 28,
+      "committed_half_trivial": 22,
+      "committed_full_trivial": 0,
+      "committed_half_tighter": 26,
+      "committed_full_tighter": 24
+    },
+    {
+      "hyx": 0.3,
+      "flips": 0,
+      "n": 28,
+      "committed_half_trivial": 21,
+      "committed_full_trivial": 0,
+      "committed_half_tighter": 26,
+      "committed_full_tighter": 24
+    },
+    {
+      "hyx": 0.5,
+      "flips": 2,
+      "n": 28,
+      "committed_half_trivial": 18,
+      "committed_full_trivial": 0,
+      "committed_half_tighter": 26,
+      "committed_full_tighter": 22
+    }
+  ],
+  "n": 28,
+  "mean_sigma_trivial": 2.2100022010310023,
+  "mean_sigma_tighter": 0.5848103165894274,
+  "dataset": "cifar10",
+  "hyx_values": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ]
+}

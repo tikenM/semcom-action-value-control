@@ -1,0 +1,637 @@
+{
+  "datasets": [
+    "mnist",
+    "cifar10",
+    "stl10",
+    "wine"
+  ],
+  "should_enable_threshold": 0.3,
+  "per_dataset": {
+    "mnist": {
+      "pooled_harm_rate": 0.9,
+      "pooled_harm_ci": [
+        0.5549838829718037,
+        0.9974714214555382
+      ],
+      "pooled_seeds": 5,
+      "pooled_overrides_total": 10,
+      "published_harm_rate": 0.81,
+      "dominance": 0.6588840522358529,
+      "positive_frac": 1.0
+    },
+    "cifar10": {
+      "pooled_harm_rate": 0.2777777777777778,
+      "pooled_harm_ci": [
+        0.14200244726340278,
+        0.45186114506783903
+      ],
+      "pooled_seeds": 5,
+      "pooled_overrides_total": 36,
+      "published_harm_rate": 0.214,
+      "dominance": 2.3544668587896247,
+      "positive_frac": 1.0
+    },
+    "stl10": {
+      "pooled_harm_rate": 0.19047619047619047,
+      "pooled_harm_ci": [
+        0.08600559445593248,
+        0.34118441360415663
+      ],
+      "pooled_seeds": 5,
+      "pooled_overrides_total": 42,
+      "published_harm_rate": 0.143,
+      "dominance": 0.42370370370370325,
+      "positive_frac": 0.75
+    },
+    "wine": {
+      "pooled_harm_rate": 0.1,
+      "pooled_harm_ci": [
+        0.0025285785444617813,
+        0.44501611702819543
+      ],
+      "pooled_seeds": 5,
+      "pooled_overrides_total": 10,
+      "published_harm_rate": 0.091,
+      "dominance": 0.2777777777777778,
+      "positive_frac": 0.6666666666666666
+    }
+  },
+  "ground_truth": {
+    "mnist": false,
+    "cifar10": true,
+    "stl10": true,
+    "wine": true
+  },
+  "reliable": {
+    "mnist": true,
+    "cifar10": false,
+    "stl10": false,
+    "wine": false
+  },
+  "cell_scores": {
+    "0.8,0.65": 1,
+    "0.8,0.7": 1,
+    "0.8,0.75": 1,
+    "0.8,0.8": 1,
+    "0.8,0.85": 1,
+    "0.85,0.65": 1,
+    "0.85,0.7": 1,
+    "0.85,0.75": 1,
+    "0.85,0.8": 1,
+    "0.85,0.85": 1,
+    "0.9,0.65": 1,
+    "0.9,0.7": 1,
+    "0.9,0.75": 1,
+    "0.9,0.8": 1,
+    "0.9,0.85": 1,
+    "0.95,0.65": 1,
+    "0.95,0.7": 1,
+    "0.95,0.75": 1,
+    "0.95,0.8": 1,
+    "0.95,0.85": 1
+  },
+  "cell_n_reliable": {
+    "0.8,0.65": 1,
+    "0.8,0.7": 1,
+    "0.8,0.75": 1,
+    "0.8,0.8": 1,
+    "0.8,0.85": 1,
+    "0.85,0.65": 1,
+    "0.85,0.7": 1,
+    "0.85,0.75": 1,
+    "0.85,0.8": 1,
+    "0.85,0.85": 1,
+    "0.9,0.65": 1,
+    "0.9,0.7": 1,
+    "0.9,0.75": 1,
+    "0.9,0.8": 1,
+    "0.9,0.85": 1,
+    "0.95,0.65": 1,
+    "0.95,0.7": 1,
+    "0.95,0.75": 1,
+    "0.95,0.8": 1,
+    "0.95,0.85": 1
+  },
+  "cell_detail": {
+    "0.8,0.65": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.8,0.7": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.8,0.75": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.8,0.8": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.8,0.85": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.85,0.65": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.85,0.7": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.85,0.75": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.85,0.8": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.85,0.85": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.9,0.65": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.9,0.7": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.9,0.75": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.9,0.8": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.9,0.85": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.95,0.65": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.95,0.7": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.95,0.75": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.95,0.8": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    },
+    "0.95,0.85": {
+      "mnist": {
+        "decided_enable": false,
+        "should_enable": false,
+        "correct": true,
+        "reliable": true
+      },
+      "cifar10": {
+        "decided_enable": true,
+        "should_enable": true,
+        "correct": true,
+        "reliable": false
+      },
+      "stl10": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      },
+      "wine": {
+        "decided_enable": false,
+        "should_enable": true,
+        "correct": false,
+        "reliable": false
+      }
+    }
+  }
+}
